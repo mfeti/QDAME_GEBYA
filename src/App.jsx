@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Navbar from "./components/Navbar";
 function App() {
   useEffect(function () {
     AOS.init({
@@ -11,7 +12,15 @@ function App() {
     });
     AOS.refresh();
   }, []);
-  return <div data-aos="fade-down">👋</div>;
+  return (
+    <div className="overflow-x-hidden">
+      <header>
+        <Navbar />
+      </header>
+      <main></main>
+      <footer></footer>
+    </div>
+  );
 }
 
 export default App;
