@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 function App() {
   useEffect(function () {
     AOS.init({
@@ -18,7 +19,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <div className="h-screen"></div>
+        <Hero />
       </main>
       <footer></footer>
     </div>

@@ -46,8 +46,8 @@ function Navbar() {
       </div>
       {/* lower section  */}
 
-      <div className="flex justify-center py-2">
-        <ul className="hidden sm:flex items-center">
+      <div className="flex justify-center">
+        <ul className="hidden sm:flex items-center py-3">
           {NavLinks.map((link) => (
             <li key={link.id} className="">
               <a
