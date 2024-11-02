@@ -17,7 +17,9 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main></main>
+      <main>
+        <div className="h-screen"></div>
+      </main>
       <footer></footer>
     </div>
   );
