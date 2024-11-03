@@ -3,6 +3,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import Logo from "../assets/logo.png";
 import DarkMode from "../ui/DarkMode";
 import { DropdownLinks, NavLinks } from "../constants";
+import Button from "../ui/Button";
 
 function Navbar() {
   return (
@@ -14,7 +15,9 @@ function Navbar() {
           <div className="">
             <a href="" className="flex items-center gap-2">
               <img src={Logo} alt="logo" className="w-10 h-10" />
-              <span className="font-bold sm:text-2xl text-xl">Qdame Gebya</span>
+              <span className="font-bold sm:text-2xl text-xl whitespace-nowrap">
+                Qdame Gebya
+              </span>
             </a>
           </div>
           {/* 🔍 section  */}
@@ -28,15 +31,12 @@ function Navbar() {
               <FaSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
             {/* order button  */}
-            <button
-              onClick={() => {}}
-              className="bg-gradient-to-r from-primary to-secondary px-4 py-1 rounded-full text-white transition-all duration-300 flex gap-2 items-center group"
-            >
+            <Button onClick={() => {}} styles="flex gap-2 items-center group">
               <span className="hidden group-hover:block transition-all duration-300">
                 Order
               </span>
               <FaCartShopping className="text-xl text-white drop-shadow-md" />
-            </button>
+            </Button>
             {/* Dark mode switch */}
             <div className="">
               <DarkMode />
