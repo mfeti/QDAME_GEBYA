@@ -71,7 +71,7 @@ function Navbar() {
                 {DropdownLinks.map((data) => (
                   <li key={data.id}>
                     <a
-                      className="inline-block p-2 rounded-md w-full hover:bg-primary/10 whitespace-nowrap"
+                      className="inline-block p-2 rounded-md w-full hover:bg-primary/20 whitespace-nowrap"
                       href={data.link}
                     >
                       {data.name}
