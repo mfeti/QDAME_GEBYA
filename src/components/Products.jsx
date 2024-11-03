@@ -8,11 +8,17 @@ function Products() {
         <div className="flex flex-col gap-6">
           {/* text section  */}
           <div className="flex flex-col items-center gap-1">
-            <p className="text-sm text-secondary">
+            <p data-aos="fade-up" className="text-sm text-secondary">
               Top Selling Products for you
             </p>
-            <h2 className="font-bold text-3xl sm:text-4xl">Products</h2>
-            <p className="text-xs text-gray-400">
+            <h2 data-aos="fade-up" className="font-bold text-3xl sm:text-4xl">
+              Products
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-xs text-gray-400"
+            >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
               asperiores modi Sit asperiores modi
             </p>
@@ -22,7 +28,12 @@ function Products() {
             {/* card section  */}
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5 ">
               {ProductsData.map((data) => (
-                <div key={data.id} className="space-y-2">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay={data.aosDelay}
+                  key={data.id}
+                  className="space-y-2"
+                >
                   <img
                     src={data.img}
                     className="h-[220px] w-[150px] object-cover rounded-md"
