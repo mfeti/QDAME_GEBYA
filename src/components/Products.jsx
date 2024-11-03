@@ -3,7 +3,7 @@ import { ProductsData } from "../constants";
 import Button from "../ui/Button";
 function Products() {
   return (
-    <section>
+    <section className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <div className="container sm:py-14 py-7">
         <div className="flex flex-col gap-6">
           {/* text section  */}
