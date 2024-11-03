@@ -34,7 +34,9 @@ function Hero() {
                   </h1>
                   <p className="text-sm line-clamp-3">{data.description}</p>
                   <div>
-                    <Button styles="px-4 py-2">Order Now</Button>
+                    <Button styles="bg-gradient-to-r from-primary to-secondary px-4 py-2">
+                      Order Now
+                    </Button>
                   </div>
                 </div>
                 {/* image section  */}

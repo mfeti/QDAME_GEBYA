@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Products from "./components/Products";
 function App() {
   useEffect(function () {
     AOS.init({
@@ -20,6 +21,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <Products />
       </main>
       <footer></footer>
     </div>

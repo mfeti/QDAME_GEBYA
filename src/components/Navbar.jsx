@@ -31,7 +31,10 @@ function Navbar() {
               <FaSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
             {/* order button  */}
-            <Button onClick={() => {}} styles="flex gap-2 items-center group">
+            <Button
+              onClick={() => {}}
+              styles="bg-gradient-to-r from-primary to-secondary flex gap-2 items-center group"
+            >
               <span className="hidden group-hover:block transition-all duration-300">
                 Order
               </span>
