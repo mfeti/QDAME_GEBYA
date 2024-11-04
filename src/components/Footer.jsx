@@ -20,7 +20,11 @@ const bgImage = {
 function Footer() {
   return (
     <div style={bgImage} className="text-white pb-56 pt-10">
-      <div className="container flex justify-center items-center">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        className="container flex justify-center items-center"
+      >
         <div className="flex lg:flex-row flex-col lg:gap-24 gap-10">
           {/* 1st section */}
           <div className="lg:w-1/3 space-y-4">
