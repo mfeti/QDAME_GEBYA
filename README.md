@@ -1,3 +1,3 @@
 # QDAME GEBYA
 
-# live demo 🚀 ()
+# live demo 🚀 (https://qdame-gebya.vercel.app/)
