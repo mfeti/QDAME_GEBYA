@@ -9,7 +9,7 @@ function Banner() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           {/* image section  */}
           <div className="">
-            <div className="md:w-1/2">
+            <div data-aos="zoom-in" className="md:w-1/2">
               <img
                 src={Image}
                 alt=""
@@ -20,27 +20,43 @@ function Banner() {
           {/* text content section  */}
           <div className="md:w-1/2">
             <div className="space-y-3">
-              <h2 className="font-bold text-3xl sm:text-4xl">
+              <h2 data-aos="fade-up" className="font-bold text-3xl sm:text-4xl">
                 Winter Sale upto 50% Off
               </h2>
-              <p className="text-sm text-gray-500">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="text-sm text-gray-500"
+              >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                 reiciendis inventore iste ratione ex alias quis magni at optio
               </p>
               <div className="space-y-4">
-                <div className="flex items-center gap-3">
+                <div data-aos="fade-up" className="flex items-center gap-3">
                   <GrSecure className="text-4xl h-12 w-12 p-4 bg-violet-100 dark:bg-violet-400 rounded-full" />
                   <p>Quality Products</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="flex items-center gap-3"
+                >
                   <IoFastFood className="text-4xl h-12 w-12 p-4 bg-orange-100 dark:bg-orange-400 rounded-full" />
                   <p>Fast Delivery</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="flex items-center gap-3"
+                >
                   <GiFoodTruck className="text-4xl h-12 w-12 p-4 bg-green-100 dark:bg-green-400 rounded-full" />
                   <p>Easy Payment method</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="flex items-center gap-3"
+                >
                   <GiFoodTruck className="text-4xl h-12 w-12 p-4 bg-yellow-100 dark:bg-yellow-400 rounded-full" />
                   <p>Get Offers</p>
                 </div>
