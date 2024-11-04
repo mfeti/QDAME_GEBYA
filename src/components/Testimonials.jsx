@@ -45,17 +45,27 @@ function Testimonials() {
         <div className="space-y-10">
           {/* heading section  */}
           <div className="text-center space-y-1">
-            <p className="text-sm text-primary">
+            <p data-aos="fade-up" className="text-sm text-primary">
               What our customers are saying
             </p>
-            <h2 className="text-3xl sm:text-4xl font-bold">Testimonials</h2>
-            <p className="text-sm text-gray-400">
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-3xl sm:text-4xl font-bold"
+            >
+              Testimonials
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-sm text-gray-400"
+            >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
               asperiores modi Sit asperiores modi
             </p>
           </div>
           {/* testimonial card section  */}
-          <div className="">
+          <div data-aos="zoom-in" data-aos-duration="800">
             <Slider {...settings}>
               {TestimonialData.map((data) => (
                 <div key={data.id}>
