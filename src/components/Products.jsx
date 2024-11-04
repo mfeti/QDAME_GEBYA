@@ -11,6 +11,7 @@ function Products() {
             <p data-aos="fade-up" className="text-sm text-secondary">
               Top Selling Products for you
             </p>
+
             <h2 data-aos="fade-up" className="font-bold text-3xl sm:text-4xl">
               Products
             </h2>
