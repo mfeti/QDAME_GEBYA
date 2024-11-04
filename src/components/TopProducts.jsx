@@ -9,16 +9,27 @@ function TopProducts() {
         <div className="flex flex-col gap-20">
           {/* heading section  */}
           <div className="space-y-1">
-            <p className="text-sm text-primary">Top Rated Products for you</p>
-            <h2 className="text-3xl sm:text-4xl font-bold">Best Products</h2>
-            <p className="text-gray-400 text-sm">
+            <p data-aos="fade-up" className="text-sm text-primary">
+              Top Rated Products for you
+            </p>
+            <h2 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
+              Best Products
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-gray-400 text-sm"
+            >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
               asperiores modi Sit asperiores modi
             </p>
           </div>
 
           {/* card section  */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center">
+          <div
+            data-aos="zoom-in"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center"
+          >
             {TopProductsData.map((data) => (
               <div
                 key={data.id}
