@@ -4,6 +4,11 @@ import AOS from "aos";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
+import TopProducts from "./components/TopProducts";
+import Banner from "./components/Banner";
+import Subscribe from "./components/Subscribe";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 function App() {
   useEffect(function () {
     AOS.init({
@@ -22,8 +27,15 @@ function App() {
       <main>
         <Hero />
         <Products />
+        <TopProducts />
+        <Banner />
+        <Subscribe />
+        <Products />
+        <Testimonials />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
